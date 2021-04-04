@@ -1,0 +1,53 @@
+
+body {
+  background-color: #2987f8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  -webkit-box-shadow: 5px 5px 27px 9px #000000; 
+  box-shadow: 5px 5px 27px 9px #000000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 15px;
+  border: 1px black;
+  border-radius: 5px;
+}
+
+section h1 {
+  font-size: 20px;
+  margin-left: 8px;
+}
+section li {
+  padding-left: 4px;
+}
+section a{
+  color: black;
+}
+header {
+  background-image: url('https://www.codigofonte.com.br/wp-content/uploads/2019/07/header_02.jpg');
+  background-size:500px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+div {
+  padding: 15px;
+  background: #b4ad9d;
+  border: 1px black;
+  border-radius: 5px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(-50%);
+  border: 8px solid white;
+}
