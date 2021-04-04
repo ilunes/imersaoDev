@@ -1,0 +1,33 @@
+1<html>
+    <link href="https://ilunes.github.io/imersaoDev/aluraFlix.css" rel="stylesheet"/>
+    <script src="https://ilunes.github.io/imersaoDev/aluraFlix.js"></script>
+<head>
+    <title>
+        Imersão Dev - Aula 04
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <h2>Escolha um filme para exibir</h2>
+    <p>1 - "The Flash (2022)"<br>
+         2 - "Interestelar (2014)"<br>
+           3 - "Magnatas do Crime (2019)"<br>
+           4 - "Capitão América: O Primeiro Vingador (2011)"<br>
+           5 - "Destruição Final: O Último Refúgio (2020)" </p>
+    <input type="num" value="1" id="filmeExibir">
+    <button  onclick="exibir()">Exiba filme</button>
+    <h3></h3>
+    
+</body>
+
+</html>
